@@ -1,6 +1,6 @@
 {
   "name": "@tiffinger-thiel/cra-template-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "react",
     "create-react-app",
@@ -22,8 +22,5 @@
   "files": [
     "template",
     "template.json"
-  ],
-  "scripts": {
-    "publish": "npm publish --public"
-  }
+  ]
 }
