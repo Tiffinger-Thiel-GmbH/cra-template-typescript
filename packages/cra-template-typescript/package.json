@@ -1,6 +1,6 @@
 {
-  "name": "cra-template-typescript",
-  "version": "1.1.2",
+  "name": "@tiffinger-thiel/cra-template-typescript",
+  "version": "0.2.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -10,15 +10,14 @@
   "description": "The base TypeScript template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template-typescript"
+    "url": "https://github.com/Tiffinger-Thiel-GmbH/cra-template-typescript.git"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/Tiffinger-Thiel-GmbH/cra-template-typescript/issues"
   },
   "files": [
     "template",
