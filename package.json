@@ -1,6 +1,6 @@
 {
   "name": "@tiffinger-thiel/cra-template-typescript_root",
   "scripts": {
-    "publish": "cd packages/cra-template-typescript && yarn publish --public"
+    "publish:template": "cd packages/cra-template-typescript && yarn publish --public"
   }
 }

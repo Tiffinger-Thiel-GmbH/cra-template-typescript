@@ -9,5 +9,5 @@ git merge -s subtree -Xsubtree="packages/cra-template-typescript" temp-branch --
 
 # Publish
 ```
-npm run publish
+npm run publish:template
 ```
