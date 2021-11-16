@@ -10,7 +10,8 @@
   "description": "The base TypeScript template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tiffinger-Thiel-GmbH/cra-template-typescript.git"
+    "url": "https://github.com/Tiffinger-Thiel-GmbH/cra-template-typescript.git",
+    "directory": "packages/cra-template-typescript"
   },
   "license": "MIT",
   "engines": {
