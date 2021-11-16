@@ -1,9 +1,9 @@
-import React, { FC, ReactNode } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React, { FC, ReactNode } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 interface Props {
-  headline: ReactNode
+  headline: ReactNode;
 }
 
 const App: FC<Props> = ({ headline }) => {
@@ -12,17 +12,12 @@ const App: FC<Props> = ({ headline }) => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{headline}</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
