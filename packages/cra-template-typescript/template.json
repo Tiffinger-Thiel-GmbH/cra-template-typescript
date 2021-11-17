@@ -10,33 +10,8 @@
       "@types/react-dom": "^17.0.9",
       "typescript": "^4.4.2",
       "web-vitals": "^2.1.0",
-
-      "@testing-library/dom": "^7.21.4",
-
-      "eslint": "^7.20.0",
-      "@babel/core": "^7.14.2",
-      "@babel/eslint-parser": "^7.14.7",
-      "@rushstack/eslint-patch": "^1.0.6",
-      "@typescript-eslint/eslint-plugin": "^4.0.0",
-      "@typescript-eslint/parser": "^4.0.0",
-      "babel-preset-react-app": "^10.0.0",
-      "confusing-browser-globals": "^1.0.10",
-      "eslint-plugin-flowtype": "^5.2.0",
-      "eslint-plugin-import": "^2.22.0",
-      "eslint-plugin-jest": "^24.0.0",
-      "eslint-plugin-jsx-a11y": "^6.3.1",
-      "eslint-plugin-react": "^7.20.3",
-      "eslint-plugin-react-hooks": "^4.0.8",
-      "eslint-plugin-testing-library": "^3.9.0",
-
-      "eslint-config-react-app": "^6.0.0",
-      "eslint-plugin-node": "^11.1.0",
-      "eslint-plugin-promise": "^5.0.0",
-      "eslint-config-standard-with-typescript": "^21.0.1",
-
-      "eslint-plugin-prettier": "^v3.3.1",
-      "prettier": "^2.3.2",
-      "eslint-config-prettier": "^8.3.0"
+      "@tiffinger-thiel/eslint-config": "^1.0.0",
+      "eslint": "^7.32.0"
     },
     "scripts": {
       "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix"
