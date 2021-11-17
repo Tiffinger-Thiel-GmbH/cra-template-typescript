@@ -1,6 +1,6 @@
 # Usage
 ```
-npx create-react-app my-app2 --template @tiffinger-thiel/cra-template-typescript
+npx create-react-app my-app --template @tiffinger-thiel/cra-template-typescript
 ```
 
 # Merge upstream
