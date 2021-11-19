@@ -1,12 +1,12 @@
-import React, { FC, ReactNode } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 interface Props {
-  headline: ReactNode;
+  headline: React.ReactNode;
 }
 
-const App: FC<Props> = ({ headline }) => {
+const App: React.FC<Props> = ({ headline }) => {
   return (
     <div className="App">
       <header className="App-header">
