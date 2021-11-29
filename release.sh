@@ -1,4 +1,5 @@
 #/bin/bash
 cd packages/cra-template-typescript
-npm run publish:npm
+npm i
+npm run release
 cd ../../

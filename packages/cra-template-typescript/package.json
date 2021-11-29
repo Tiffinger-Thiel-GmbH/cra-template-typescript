@@ -8,6 +8,9 @@
     "typescript"
   ],
   "description": "The base TypeScript template for Create React App.",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Tiffinger-Thiel-GmbH/cra-template-typescript.git"
@@ -24,6 +27,9 @@
     "template.json"
   ],
   "scripts": {
-    "publish:npm": "npm publish --access public"
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "release-it": "^14.11.8"
   }
 }
